@@ -1,0 +1,288 @@
+body{
+	padding: 15px;
+	font-family: arial;
+
+}
+
+.logo{
+	height: 100px;
+	width: 250px;
+	margin-left: 5px;
+
+
+}
+
+input[type=text].forms{
+    width: 50%;
+    padding: 15px;
+    border: none;
+    border-bottom: 2px solid #180A66;
+    
+}
+
+
+.items{
+	display: inline-block;
+    vertical-align: top;
+    word-spacing: 0px;
+    box-sizing: border-box;
+    margin: 15px;
+    width: 271px;
+    height: 425px;
+    padding: 42px;
+    overflow: hidden;
+    text-align: center;
+    border-left: #008FFF 5px solid;
+    background-color: aliceblue;
+}
+.top{
+	font-family: arial;
+	font-size: 20px;
+	color: #180A66;
+	text-decoration: none;
+
+}
+
+.top:hover{
+	color: #008FFF;
+	text-decoration: underline;
+
+}
+
+.profileicon{
+	width: 40px;
+	height: 40px;
+	float: right;
+}
+
+.searchicon{
+
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
+	float: right;
+	margin-top: 15px;
+}
+
+input[type=text] {
+	margin-top: 15px;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    border: 2px solid #00B80E;
+}
+
+.profilepicture{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-right: 5px;
+}
+
+
+.carticon{
+	height: 40px;
+	width: 40px;
+	float: right;
+	margin-top: 15px;
+
+}
+
+.signin{
+	font-family: arial;
+	font-size: 20px;
+	color: #180A66;
+	text-decoration: none;
+	float: right;
+	margin-top: 12px;
+
+}
+
+
+.signin:hover{
+
+	color:#008FFF;
+	text-decoration: underline;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00B80E;
+    font-size: 30px;
+    text-align: center;
+}
+
+li.nav {
+    float: left;
+
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Lobster;
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+    background-color: #8DDF00;
+}
+
+li.dropdown{
+	display: inline-block;
+	float: left;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #00B80E;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1;
+}
+
+.dropdown-content a{
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+.dropdown-content a:hover{
+	background-color: #8DDF00;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.bold{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.product{
+	width: 150px;
+	height: 150px;
+}
+
+
+footer{
+	background-color: #8DDF00;
+	padding: 15px;
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+.rights{
+	text-align: center;
+}
+
+.social{
+	margin-top: -25px;
+	margin-left: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.titles{
+	font-family: Lobster;
+	color: #180A66;
+	font-size: 30px;
+	float: left;
+    margin-left: 15px;
+}
+
+.welcome{
+    font-family: Lobster;
+    color: #180A66;
+    font-size: 45px;
+    text-align: center;
+}
+
+.policies{
+	font-size: 12px;
+	text-align: center;
+	color: black;
+}
+---------------------------------------------------------------------------------------------------------------------------------------
+
+/* GRID of 2  */
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.4%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 99%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+/* GRID of 6 */
+
+/*  GRID OF SIX  */
+.span_6_of_6 {
+	width: 100%;
+}
+
+.span_5_of_6 {
+  	width: 83.06%;
+}
+
+.span_4_of_6 {
+  	width: 66.13%;
+}
+
+.span_3_of_6 {
+  	width: 49.2%;
+}
+
+.span_2_of_6 {
+  	width: 32.26%;
+}
+
+.span_1_of_6 {
+  	width: 15.33%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_6, .span_2_of_6, .span_3_of_6, .span_4_of_6, .span_5_of_6, .span_6_of_6 { width: 100%; }
+}
